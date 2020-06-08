@@ -1,0 +1,24 @@
+body{
+background-color: #ffeeaf;
+margin: 0;
+}
+
+ header {
+     width: 100%;
+}
+
+.left-nav i{
+    display: block;
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
