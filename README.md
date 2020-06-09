@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]https://rawcdn.githack.com/digitekh2i/embeded-video-project/90da15d53b5c8ed80075799b225b1588535606e3/index.html)
+[Live Demo Link](https://rawcdn.githack.com/digitekh2i/embeded-video-project/90da15d53b5c8ed80075799b225b1588535606e3/index.html)
 
 
 ## Getting Started
