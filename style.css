@@ -1,24 +1,30 @@
 body{
-background-color: #ffeeaf;
+background-color: #fffffe;
 margin: 0;
 }
 
- header {
+ header{
      width: 100%;
-}
-
-.left-nav i{
-    display: block;
-}
-
-.left-nav{
-    display: flex;
-    align-items: center;
+     display: flex;
 }
 
 nav{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+ .srch{
+display:flex;
+align-content: stretch;
+}
+
+.span{
+    display:flex;
+}
+
+main{
+    display: grid;
+    max-width: 100%;
 }
