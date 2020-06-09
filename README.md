@@ -1,21 +1,5 @@
 # embeded-video-project
-https://rawcdn.githack.com/digitekh2i/embeded-video-project/90da15d53b5c8ed80075799b225b1588535606e3/index.html
-
-# Project Name
-
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
-
-## Built With
-
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
+ppp:ve Demo
 
 [Live Demo Link](https://rawcdn.githack.com/digitekh2i/embeded-video-project/90da15d53b5c8ed80075799b225b1588535606e3/index.html)
 
