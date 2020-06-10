@@ -1,11 +1,11 @@
 # embeded-video-project
-https://rawcdn.githack.com/digitekh2i/embeded-video-project/90da15d53b5c8ed80075799b225b1588535606e3/index.html
+https://rawcdn.githack.com/digitekh2i/embeded-video-project/9a0604a5565cededc910edb362a3e395596b9035/index.html
 
 # embeded-video-project
 
 > this project is an attempt to replicate the look and feel of the popular internet media player, youTube Channel.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./player.jpg)
 
 
 ## Built With
@@ -15,7 +15,7 @@ https://rawcdn.githack.com/digitekh2i/embeded-video-project/90da15d53b5c8ed80075
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/digitekh2i/embeded-video-project/90da15d53b5c8ed80075799b225b1588535606e3/index.html)
+[Live Demo Link](https://rawcdn.githack.com/digitekh2i/embeded-video-project/9a0604a5565cededc910edb362a3e395596b9035/index.html)
 
 ## Authors
 
