@@ -5,13 +5,13 @@ https://rawcdn.githack.com/digitekh2i/embeded-video-project/44d8bd0b20be45ecc6e2
 
 > this project is an attempt to replicate the look and feel of the popular internet media player, youTube Channel.
 
-![scrshot](img/scrshot.jpg)
+![screenshot](img/player.jpg)
 
 
 ## Built With
 
 - html & css,
-- Visual Studio Code
+- Visual Studio Code, Git and Github.
 
 ## Live Demo
 [Live Demo Link](https://rawcdn.githack.com/digitekh2i/embeded-video-project/44d8bd0b20be45ecc6e29520bd4dbc2453b6413d/index.html)
