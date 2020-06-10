@@ -1,5 +1,5 @@
 # embeded-video-project
-https://rawcdn.githack.com/digitekh2i/embeded-video-project/9a0604a5565cededc910edb362a3e395596b9035/index.html
+https://rawcdn.githack.com/digitekh2i/embeded-video-project/6e1b07784330cb9a4c9e543b44097ee99e66d717/index.html
 
 # embeded-video-project
 
@@ -14,8 +14,7 @@ https://rawcdn.githack.com/digitekh2i/embeded-video-project/9a0604a5565cededc910
 - Visual Studio Code
 
 ## Live Demo
-
-[Live Demo Link](https://rawcdn.githack.com/digitekh2i/embeded-video-project/9a0604a5565cededc910edb362a3e395596b9035/index.html)
+[Live Demo Link](https://rawcdn.githack.com/digitekh2i/embeded-video-project/6e1b07784330cb9a4c9e543b44097ee99e66d717/index.html)
 
 ## Authors
 
