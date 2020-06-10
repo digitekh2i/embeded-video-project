@@ -5,7 +5,7 @@ https://rawcdn.githack.com/digitekh2i/embeded-video-project/dee4aaa50da5b035fdd2
 
 > this project is an attempt to replicate the look and feel of the popular internet media player, youTube Channel.
 
-![screenshot](img/player.jpg)
+![screenshot](image/player.jpg)
 
 
 ## Built With
