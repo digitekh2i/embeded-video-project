@@ -24,6 +24,7 @@ justify-content: space-evenly;
 width: 1247.33;
 height: 84.67;
 padding: 10px 5px;
+align-items: center;
 }
 
 .mini{
@@ -45,8 +46,16 @@ align-content: space-around;
 }
 
 .button{
-    width: 2.188em;
-    margin-top: 6px;
+    width: 10px;
+    height: 2.000em;
+    text-align: center;
+    position: relative;
+    top: 9px;
+}
+}
+
+button{
+    height: 2.000em;
 }
 
 main{
@@ -117,5 +126,32 @@ span .info-style{
 }
 
 .videoInfo{
-    display: -moz-inline-grid;
+    display: inline;
+}
+
+#video-button{
+    position: relative;
+    top: 17px;
+    right: 18px;
+}
+
+#app-button{
+    position: relative;
+    top: 13px;
+    right: 8px;
+}
+
+#bell-button{
+    position: relative;
+    top:5px;
+}
+
+#logo{
+    position: relative;
+    top: 5px;
+}
+
+#menu{
+    position: relative;
+    top: 5px;
 }
