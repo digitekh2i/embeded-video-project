@@ -8,28 +8,28 @@
     <title>youTube Homepage</title>
 </head>
 <body>
-    <header class="flex-header">
-        <nav class="flex-header">
-            <div class="flex-header">
-               <div><a href=""><i class="fas fa-bars"></i></a></div>
-                <div> <a href=""><img src="image/logo.jpg" alt="youTube-logo" class="logo"></a></div>
-            </div>
-            <div class="flex-header">
-                <div><input type="search" value="search" class="search"></div>
-                <div><input type="button"  value="click" class="button"></div> 
+    <header>
+        <div class="header-box">
+            <div><i class="fas fa-bars" id="menu"></i></div>
+            <div>
+               <img src="image/logo.jpg" alt="youTube-logo" id="logo">
             </div>
 
-         <div class="flex-header">
-            <div> 
-                <div><a href="#"><img src="image/video-post.jpg" alt="right-nav" class="post"></a></div>
+            <div class="header icon">
+                <form action="form/submit" method="GET">
+                    <input type="text" placeholder="search" class="search" name="text">
+                    <input type="button" class="button" placeholder="click!"> 
+                </form>
             </div>
-            <div><div><a href="#"><img src="image/app.jpg" alt="right-nav"></a></div>
-            </div>
-            <div> 
-                <div> <a href="#"><img src="image/bell.jpg" alt="right-nav"></a></div>
+
+         <div class="header icons">
+            <div class="mini">
+                <div><a href="#"><img src="image/video-post.jpg" alt="right-div" class="icon-style"></a></div>
+                  <div><a href="#"><img src="image/app.jpg" alt="right-div" class="icon-style"></a></div>
+                    <div><a href="#"><img src="image/bell.jpg" alt="right-div" class="icon-style"></a></div>
             </div>
         </div>
-        </nav>
+    </div>
     </header>
     <main>
         <div class="mediaPlayer"><iframe width="650" height="400" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -42,9 +42,47 @@
                </div>
         </div>
         <div class="listedView">
-            <div class="iconcue"><img src="image/firstfoto.jpg" alt=""></div> 
-            <div><img src="image/img5.jpg" alt="" class="iconcue"></div>
-            <div><img src="image/img4.jpg" alt="" class="iconcue"></div>
+            <div class="privcons">
+                <div><a href="#">Up Next</a></div>
+                <div><a href="#">AUTOPLAY</a></div>
+                <div><i class="fas fa-toggle-on"></i></div>
+            </div>
+            <div class="iconcue"><iframe src="https://www.youtube.com/embed/YJZCUhxNCv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="info-style"></span>
+                 <br>
+                <span class="views"></span>
+                 <br>
+            </div> 
+            <div><iframe class="iconcue" src="https://www.youtube.com/embed/wN4ZuGruiNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="info-style"></span>
+                 <br>
+                <span class="views"></span>
+                 <br>
+            </div>
+            <div><iframe class="iconcue" src="https://www.youtube.com/embed/mENDYhfxH-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="info-style"></span>
+                 <br>
+                <span class="views"></span>
+                 <br>
+            </div>
+            <div><iframe class="iconcue" src="https://www.youtube.com/embed/mp0-QQQgv7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="info-style"></span>
+                 <br>
+                <span class="views"></span>
+                 <br>
+            </div>
+            <div><iframe class="iconcue" src="https://www.youtube.com/embed/D9Ihs241zeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="info-style"></span>
+                 <br>
+                <span class="views"></span>
+                 <br>
+            </div>
+            <div><iframe class="iconcue" src="https://www.youtube.com/embed/k6KcaMffxac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="info-style"></span>
+                 <br>
+                <span class="views"></span>
+                 <br>
+            </div>
         </div>
     </main>
 </body>

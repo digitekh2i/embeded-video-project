@@ -1,3 +1,7 @@
+*{
+box-sizing: border-box;
+}
+
 body{
 background-color: #fffffe;
 width: 100;
@@ -6,38 +10,38 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 text{
-font-size: 12px;
+font-size: 13px;
 }
 
- header{
-     width: 100%;
-     padding: 5px 5px 5px;
-}
-.logo{
-    width: 80;
-    height: 24;
-}
-nav{
-    width: 100%;
+.header-box{
+display: flex;
+justify-content: space-evenly;
+width: 1247.33;
+height: 84.67;
+padding: 10px 5px;
 }
 
-.flex-header{
-    width: 100%;
-    display: flex;
-    justify-content: stretch;
+.mini{
+display: flex;
+justify-content: space-evenly;
+}
 
+.icon-style{
+padding: 8px 10px;
+align-content: space-around;
 }
 
 .search{
     width: 40.375em;
     height: 2.000em;
-    margin: 0em 0em 0em 0.250em;
+    margin-top: 6px 0px 0px;
     padding: 0.063em 0.125em;
+    text-align: center;
 }
 
 .button{
     width: 2.188em;
-    height: 2.000em;
+    margin-top: 6px;
 }
 
 main{
@@ -87,4 +91,18 @@ margin: 1px 2px 2px;
 iframe{
     width: 650;
     height: 400;
+}
+
+.privcons{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.info-style{
+    font-size: larger;
+    font: 1em helvetica;
+}
+
+.view{
+    color: gr#808080;
 }
