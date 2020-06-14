@@ -1,17 +1,15 @@
-*{
-box-sizing: border-box;
-}
+
 
 body{
 background-color: #fffffe;
-width: 100;
+width: 100%;
 margin: auto;
 font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
     background-color: #ffffff;
-    margin: 0;
+    margin: auto;
 }
 
 text{
@@ -25,6 +23,7 @@ width: 1247.33;
 height: 84.67;
 padding: 10px 5px;
 align-items: center;
+border-bottom: 20px;
 }
 
 .mini{
@@ -58,10 +57,12 @@ button{
     height: 2.000em;
 }
 
-main{
+.main-container{
+    width: 95%;
     display: grid;
-    justify-content: space-around;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 2fr;
+    margin: auto;
+    border: 10%;
 }
 
 a{
@@ -69,7 +70,6 @@ a{
 }
 
 .mediaPlayer{
-    margin: auto;
     display: grid;
 }
 
@@ -95,12 +95,13 @@ a{
 }
 
 .title{
-padding: 5px;
-margin: 1px;
 font-weight: bolder;
+position: relative;
+bottom: 50px;
 }
-
-.iconcue{
+/* flex box styling for listed videos on the aside section */
+.listed-video-style{
+    display: flex;
     padding: 5px;
     margin: auto;
 }
