@@ -54,6 +54,7 @@ top: 9px;
 
 button{
 height: 2.000em;
+text-align: center;
 }
 
 .main-container{
@@ -175,12 +176,6 @@ top: 17px;
 right: 18px;
 }
 
-/* .hr-line{
-width: 100%;
-position: relative;
-bottom: 80px;
-} */
-
 #app-button{
 position: relative;
 top: 13px;
@@ -235,3 +230,28 @@ padding: 9px;
 position: relative;
 left: 55px;
 }
+
+#subscribe{
+    border: #000000;
+    background-color: #a9a9a9; 
+    border-radius: 3%;
+    cursor: pointer;
+    font-size: 15;
+    font-weight: bold;
+    padding: 20px 40px;
+    color: #2f4f4f;
+    position: relative;
+    bottom: 15px;
+    right: 35px;
+    text-align: center;
+    }
+    #button-text{
+    position: relative;
+    bottom: 6px;
+    }
+
+    #bell-notifier{
+    position: relative;
+    right: 30px;
+    bottom: 12px;
+    }
