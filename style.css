@@ -67,6 +67,8 @@ button{
 
 a{
  padding: 0.313em;
+ text-decoration: none;
+ color: #2f4f4f;
 }
 
 .mediaPlayer{
@@ -155,4 +157,38 @@ span .info-style{
 #menu{
     position: relative;
     top: 5px;
+}
+
+/* styling for aside section titles */
+#titles{
+font-size: larger;
+font: 1.10em helvetica;
+color: #000000;
+font-weight: bold;
+position: relative;
+left: 7px;
+}
+
+/* Name and views styling */
+#short-info{
+color: #2f4f4f;
+position: relative;
+left: 7px;
+}
+
+#upNext{
+font-weight: 550;
+padding: 9px;
+}
+
+#autoP{
+padding: 9px;
+position: relative;
+left: 82px;
+}
+
+#toggle-btn{
+padding: 9px;
+position: relative;
+left: 55px;
 }
