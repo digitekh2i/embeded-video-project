@@ -5,7 +5,7 @@ https://digitekh2i.github.io/embeded-video-project/
 
 > this project is an attempt to replicate the look and feel of the popular internet media player, youTube Channel.
 
-![screenshot](image/player.jpg)
+![screenshot](image/final-pg.jpg)
 
 Additional description about the project and its features.
 
