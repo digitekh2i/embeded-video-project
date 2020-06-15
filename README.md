@@ -1,5 +1,5 @@
 # embeded-video-project
-https://digitekh2i.github.io/embeded-video-project/
+https://raw.githack.com/digitekh2i/embeded-video-project/page-layout/index.html
 
 # embeded-video-project
 
@@ -14,7 +14,7 @@ https://digitekh2i.github.io/embeded-video-project/
 - Visual Studio Code, Git and Github.
 
 ## Live Demo
-[Live Demo Link]https://digitekh2i.github.io/embeded-video-project/)
+[Live Demo Link](https://raw.githack.com/digitekh2i/embeded-video-project/page-layout/index.html)
 
 ## Authors
 
