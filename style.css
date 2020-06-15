@@ -44,11 +44,12 @@ text-align: center;
 }
 
 .button{
-width: 10px;
+width: 9px;
 height: 2.000em;
 text-align: center;
 position: relative;
-top: 9px;
+top: 12px;
+padding: 14px 16px;
 }
 
 
@@ -95,8 +96,8 @@ display: flex;
 justify-content: space-evenly;
 color: #2f4f4f;
 position: relative;
-bottom: 65px;
-right: 43px;
+bottom: 80px;
+right: 40px;
 }
 
 #favicons-text{
@@ -114,7 +115,7 @@ left: 5px;
 /* Channel title styling */
 .title{
 position: relative;
-bottom: 25px;
+bottom: 40px;
 color: #2f4f4f;
 }
 
@@ -155,19 +156,21 @@ justify-content:space-between;
 display: flex;
 flex-direction: column;
 position: relative;
-bottom: 189px;
+bottom: 235px;
 left: 110px;
 }
 
 #odin-logo{
 position: relative;
-bottom: 75px;
-right: 38px;
+bottom: 100px;
+right: 30px;
 }
 
 #vid-name{
 color: #000000;
 font-weight: 600;
+position: relative;
+top: 10px;
 }
 
 #video-button{
@@ -232,26 +235,44 @@ left: 55px;
 }
 
 #subscribe{
-    border: #000000;
-    background-color: #a9a9a9; 
-    border-radius: 3%;
-    cursor: pointer;
-    font-size: 15;
-    font-weight: bold;
-    padding: 20px 40px;
-    color: #2f4f4f;
-    position: relative;
-    bottom: 15px;
-    right: 35px;
-    text-align: center;
-    }
-    #button-text{
-    position: relative;
-    bottom: 6px;
-    }
+border: #000000;
+background-color: #a9a9a9; 
+border-radius: 3%;
+cursor: pointer;
+font-size: 15;
+font-weight: bold;
+padding: 20px 40px;
+color: #2f4f4f;
+position: relative;
+bottom: 44px;
+right: 35px;
+text-align: center;
+}
+#button-text{
+position: relative;
+bottom: 6px;
+}
 
-    #bell-notifier{
-    position: relative;
-    right: 30px;
-    bottom: 12px;
-    }
+#bell-notifier{
+position: relative;
+right: 30px;
+bottom: 41px;
+}
+
+#user-icon{
+position: relative;
+top: 27px;
+left: 7px;
+}
+
+.main-p{
+font-family: Georgia, Times, serif sans-serif;
+position: relative;
+bottom: 240px;
+}
+
+#magnifier-icon{
+position: relative;
+right: 25px;
+top: 2px;
+}
