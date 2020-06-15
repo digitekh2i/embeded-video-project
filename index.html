@@ -8,43 +8,114 @@
     <title>youTube Homepage</title>
 </head>
 <body>
-    <header class="flex-header">
-        <nav class="flex-header">
-            <div class="flex-header">
-               <div><a href=""><i class="fas fa-bars"></i></a></div>
-                <div> <a href=""><img src="image/logo.jpg" alt="youTube-logo" class="logo"></a></div>
-            </div>
-            <div class="flex-header">
-                <div><input type="search" value="search" class="search"></div>
-                <div><input type="button"  value="click" class="button"></div> 
+    <header>
+        <!-- header styling class -->
+        <div class="header-box"> 
+            <div><a href="#"><i class="fas fa-bars" id="menu"></i></a></div>
+            <div>
+               <a href="#"><img src="image/logo.jpg" alt="youTube-logo" id="logo"></a>
             </div>
 
-         <div class="flex-header">
-            <div> 
-                <div><a href="#"><img src="image/video-post.jpg" alt="right-nav" class="post"></a></div>
+            <div class="header icon">
+                <form action="form/submit" method="GET">
+                    <input type="text" placeholder="search" class="search" name="text">
+                    <input type="button" class="button"><i id="magnifier-icon" class="fas fa-search"></i> 
+                </form>
             </div>
-            <div><div><a href="#"><img src="image/app.jpg" alt="right-nav"></a></div>
-            </div>
-            <div> 
-                <div> <a href="#"><img src="image/bell.jpg" alt="right-nav"></a></div>
+             
+         <div class="header icons">
+            <div class="mini">
+                <div id="video-button"><a href="#"><img src="image/video-post.jpg" alt="right-div" class="icon-style"></a></div>
+                  <div id="app-button"><a href="#"><img src="image/app.jpg" alt="right-div" class="icon-style"></a></div>
+                    <div id="bell-button"><a href="#"><img src="image/bell.jpg" alt="right-div" class="icon-style"></a></div>
+                     <div id="user-icon"><a href="#"><i class="fas fa-user"></i></a></div>
             </div>
         </div>
-        </nav>
+    </div>
     </header>
-    <main>
-        <div class="mediaPlayer"><iframe width="650" height="400" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3 class="p">Contributing to Open Source Part 1: The Essay Way</h3>
-               <div class="grid-cue">
-                   <div><p>57,800 Views * june 9, 2020</p></div>
-                   <div><i class="fas fa-thumbs-up"></i></div>
-                   <div><i class="fas fa-thumbs-down"></i></div>
-                   <div class="baby-flex"><i class="fas fa-share"></i><div>share</div></div>
+    <!-- main section -->
+    <main class="main-container">
+        <div class="mediaPlayer"><iframe width="700" height="400" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3 class="title">Contributing to Open Source Part 1: The Essay Way</h3>
+               <div class="favicons-row">
+                   <span>57,800 Views * june 9, 2020</span>
+                   <div><a href="#"><i class="fas fa-thumbs-up"></i><span id="favicons-text" >425</span></a></div>
+                   <div><a href="#"><i class="fas fa-thumbs-down"></i><span id="favicons-text">18</span></a></div>
+                   <div><a href="#"><i class="fas fa-share"></i><span id="favicons-text">Share</span></a></div>
+                   <div><a href="#"><img src="image/menu-plus.jpg" alt="dif-menu-icon"><span id="save-btn">Save</span></a></div>
+                   <div><a href="#"><i class="fas fa-ellipsis-h"></i></a></div>
                </div>
+            
+               <div class="videoInfo">
+                <div><a href="#"><img id="odin-logo" src="image/odin.png" alt="odin project logo">
+                        <div class="name-views">
+                            <div><h4 id="vid-name">The Odin Project</h4></div>
+                            <div><span>993 Subscribers</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <button id="subscribe" type="button"><span id="button-text">SUBSCRIBE</span></button>
+                    <span id="bell-notifier" ><a href=""><img  src="image/scribe-bell.jpg" alt="subscribe-btn"></a></span>   
+                </div>
+              </div>
+              <div><p class="main-p">How do you contribute to open source? in this video, I'll describe the easiest way to make a contribution to open source projects...<a href="">More</a> </p></div>
         </div>
+        <!-- Aside section -->
         <div class="listedView">
-            <div class="iconcue"><img src="image/firstfoto.jpg" alt=""></div> 
-            <div><img src="image/img5.jpg" alt="" class="iconcue"></div>
-            <div><img src="image/img4.jpg" alt="" class="iconcue"></div>
+            <div class="privcons">
+                <div id="upNext" ><a href="#">Up Next</a></div>
+                <div id="autoP" ><a href="#">AUTOPLAY</a></div>
+                <div id="toggle-btn" ><a href="#"><i class="fas fa-toggle-on"></i></a></i></div>
+            </div>
+            <div class="listed-video-style">
+                <div><iframe src="https://www.youtube.com/embed/YJZCUhxNCv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div><span id="titles" class="info-style"><a href="">  How to get a job at the big 4 - Amazon, Faceboo, Google &...</a></span>
+                    <br>
+                    <br>
+                   <span id="short-info" class="views"><a href="">SJ Tech<br>1.2M Views * 5 years ago</a></span>
+                    <br></div>
+            </div> 
+            <div class="listed-video-style">
+                <div><iframe src="https://www.youtube.com/embed/wN4ZuGruiNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div><span id="titles" class="info-style"><a href="#">CUSEC2016 - How to read unfamiliar code by josh</a></span>
+                    <br>
+                    <br>
+                   <span id="short-info" class="views"><a href=""> CUSEC <br> 3.6k Views * years ago</a></span>
+                    <br></div>
+            </div>
+            <div class="listed-video-style">
+                <div><iframe src="https://www.youtube.com/embed/mENDYhfxH-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div><span id="titles" class="info-style"><a href="">Contributing to Open Source Part ||:The real way</a></span>
+                    <br>
+                    <br>
+                   <span id="short-info" class="views"><a href="">The Odin Project <br> 25k Views * 6 years ago </a></span>
+                    <br></div>
+            </div>
+            <div class="listed-video-style">
+                <div><iframe src="https://www.youtube.com/embed/mp0-QQQgv7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div><span id="titles" class="info-style"><a href="">Open Source Learning: David Preston at TEDxUCLA</a></span>
+                    <br>
+                    <br>
+                   <span id="short-info" class="views"><a href="">TedX Talks <br> Recommeded for you</a></span>
+                    <br></div>
+            </div>
+            <div class="listed-video-style">
+                <div><iframe src="https://www.youtube.com/embed/D9Ihs241zeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div><span id="titles" class="info-style"><a href="">The Danger of a single story | Chimamanda Ngozi Adichie</a></span>
+                    <br>
+                    <br>
+                   <span id="short-info" class="views"><a href=""> TED <br> Recommended for you</a></span>
+                    <br></div>
+            </div>
+            <div class="listed-video-style">
+                <div><iframe src="https://www.youtube.com/embed/k6KcaMffxac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div><span id="titles" class="info-style"><a href="">Contributing to open source on GitHub for beginners</a></span>
+                    <br>
+                    <br>
+                   <span id="short-info" class="views"><a href="#">Kent C Doods <br> 43k views * streamed 1 year ago</a></span>
+                    <br></div>
+            </div>
         </div>
     </main>
 </body>

@@ -1,90 +1,279 @@
+
+
 body{
 background-color: #fffffe;
-width: 100;
+width: 100%;
 margin: auto;
 font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+background-color: #ffffff;
+}
+
 text{
-font-size: 12px;
+font-size: 13px;
 }
 
- header{
-     width: 100%;
-     padding: 5px 5px 5px;
-}
-.logo{
-    width: 80;
-    height: 24;
-}
-nav{
-    width: 100%;
+.header-box{
+display: flex;
+justify-content: space-evenly;
+width: 1247.33;
+height: 84.67;
+padding: 10px 5px;
+align-items: center;
+border-bottom: 20px;
 }
 
-.flex-header{
-    width: 100%;
-    display: flex;
-    justify-content: stretch;
+.mini{
+display: flex;
+justify-content: space-evenly;
+}
 
+.icon-style{
+padding: 8px 10px;
+align-content: space-around;
 }
 
 .search{
-    width: 40.375em;
-    height: 2.000em;
-    margin: 0em 0em 0em 0.250em;
-    padding: 0.063em 0.125em;
+width: 40.375em;
+height: 2.000em;
+margin-top: 6px 0px 0px;
+padding: 0.063em 0.125em;
+text-align: center;
 }
 
 .button{
-    width: 2.188em;
-    height: 2.000em;
+width: 9px;
+height: 2.000em;
+text-align: center;
+position: relative;
+top: 12px;
+padding: 14px 16px;
 }
 
-main{
-    display: grid;
-    justify-content: space-around;
-    grid-template-columns: 4fr 1fr;
+
+button{
+height: 2.000em;
+text-align: center;
+}
+
+.main-container{
+width: 95%;
+display: grid;
+grid-template-columns: 3fr 2fr;
+margin: auto;
+border: 10%;
+}
+
+.main-p{
+position: relative;
+bottom: 170px;
 }
 
 a{
  padding: 0.313em;
+ text-decoration: none;
+ color: #2f4f4f;
 }
 
 .mediaPlayer{
-    margin: auto;
+display: grid;
 }
+
 .listedView{
-    margin: auto;
+margin: auto;
 }
 
 .post{
-    width: 24;
-    height: 24;
+width: 24;
+height: 24;
 }
 
-.grid-cue{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 4fr 1fr 1fr 1fr;
-    margin: auto;
+/* favicons row styling */
+.favicons-row{
+display: flex;
+justify-content: space-evenly;
+color: #2f4f4f;
+position: relative;
+bottom: 80px;
+right: 40px;
 }
 
-.baby-flex{
-    display: flex;
-    justify-content: space-around;
+#favicons-text{
+position: relative;
+left: 3px;
 }
 
-.p{
+#save-btn{
+position: relative;
+bottom: 5px;
+left: 5px;
+
+}
+
+/* Channel title styling */
+.title{
+position: relative;
+bottom: 40px;
+color: #2f4f4f;
+}
+
+/* flex box styling for listed videos on the aside section */
+.listed-video-style{
+display: flex;
 padding: 5px;
-margin: 1px 2px 2px;
-}
-
-.iconcue{
-    padding: 5px;
-    margin: auto;
+margin: auto;
 }
 
 iframe{
-    width: 650;
-    height: 400;
+width: 650;
+height: 400;
 }
+
+.privcons{
+display: grid;
+grid-template-columns: 2fr 1fr 1fr;
+}
+
+span .info-style{
+text-transform: capitalize;
+font-size: larger;
+font: 1em helvetica;
+}
+
+.view{
+color: gr#808080;
+}
+
+.videoInfo{
+display: flex;
+justify-content:space-between;
+}
+
+/* styles for the channel's profile name and views */
+.name-views{
+display: flex;
+flex-direction: column;
+position: relative;
+bottom: 235px;
+left: 110px;
+}
+
+#odin-logo{
+position: relative;
+bottom: 100px;
+right: 30px;
+}
+
+#vid-name{
+color: #000000;
+font-weight: 600;
+position: relative;
+top: 10px;
+}
+
+#video-button{
+position: relative;
+top: 17px;
+right: 18px;
+}
+
+#app-button{
+position: relative;
+top: 13px;
+right: 8px;
+}
+
+#bell-button{
+position: relative;
+top:5px;
+}
+
+#logo{
+position: relative;
+top: 5px;
+}
+
+#menu{
+position: relative;
+top: 5px;
+}
+
+/* styling for aside section titles */
+#titles{
+font-size: larger;
+font: 1.10em helvetica;
+color: #000000;
+font-weight: bold;
+position: relative;
+left: 7px;
+}
+
+/* Names and views styling */
+#short-info{
+color: #2f4f4f;
+position: relative;
+left: 7px;
+}
+
+#upNext{
+font-weight: 550;
+padding: 9px;
+}
+
+#autoP{
+padding: 9px;
+position: relative;
+left: 82px;
+}
+
+#toggle-btn{
+padding: 9px;
+position: relative;
+left: 55px;
+}
+
+#subscribe{
+border: #000000;
+background-color: #a9a9a9; 
+border-radius: 3%;
+cursor: pointer;
+font-size: 15;
+font-weight: bold;
+padding: 20px 40px;
+color: #2f4f4f;
+position: relative;
+bottom: 44px;
+right: 35px;
+text-align: center;
+}
+#button-text{
+position: relative;
+bottom: 6px;
+}
+
+#bell-notifier{
+position: relative;
+right: 30px;
+bottom: 41px;
+}
+
+#user-icon{
+position: relative;
+top: 27px;
+left: 7px;
+}
+
+.main-p{
+font-family: Georgia, Times, serif sans-serif;
+position: relative;
+bottom: 240px;
+}
+
+#magnifier-icon{
+position: relative;
+right: 25px;
+top: 2px;
+}
+

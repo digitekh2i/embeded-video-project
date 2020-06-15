@@ -5,7 +5,11 @@ https://digitekh2i.github.io/embeded-video-project/
 
 > this project is an attempt to replicate the look and feel of the popular internet media player, youTube Channel.
 
+<<<<<<< HEAD
 ![screenshot](image/player.jpg)
+=======
+![screenshot](image/final-pg.jpg)
+>>>>>>> page-layout
 
 
 ## Built With
@@ -14,7 +18,11 @@ https://digitekh2i.github.io/embeded-video-project/
 - Visual Studio Code, Git and Github.
 
 ## Live Demo
+<<<<<<< HEAD
 [Live Demo Link](https://digitekh2i.github.io/embeded-video-project/l)
+=======
+[Live Demo Link]https://digitekh2i.github.io/embeded-video-project/)
+>>>>>>> page-layout
 
 ## Authors
 
