@@ -1,5 +1,5 @@
 # embeded-video-project
-https://raw.githack.com/digitekh2i/embeded-video-project/page-layout/index.html
+https://digitekh2i.github.io/embeded-video-project/
 
 # embeded-video-project
 
@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/digitekh2i/embeded-video-project/page-layout/index.html)
+[Live Demo Link](https://digitekh2i.github.io/embeded-video-project/)
 
 ## Authors
 
