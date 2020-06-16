@@ -44,11 +44,11 @@ text-align: center;
 }
 
 .button{
-width: 9px;
-height: 2.000em;
+width: 15px;
+height: 0.070em;
 text-align: center;
 position: relative;
-top: 12px;
+right: 3px;
 padding: 14px 16px;
 }
 
@@ -276,4 +276,3 @@ position: relative;
 right: 25px;
 top: 2px;
 }
-
