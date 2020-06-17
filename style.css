@@ -31,7 +31,7 @@ align-content: space-around;
 }
 
 .search{
-width: 40.375em;
+width: 30.375em;
 height: 2.000em;
 margin-top: 6px 0px 0px;
 padding: 0.063em 0.125em;
@@ -213,7 +213,8 @@ top:5px;
 
 #logo{
 position: relative;
-top: 5px;
+top: 1px;
+right: 100px;
 }
 
 #menu{
@@ -343,4 +344,10 @@ height: 400;
 
 iframe{
 border: 0;
+}
+
+#burger-menu{
+position: absolute;
+left: 10px;
+top: 23px;
 }
