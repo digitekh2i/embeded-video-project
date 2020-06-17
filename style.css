@@ -96,7 +96,7 @@ bottom: 23px;
 right: 40px;
 }
 
-#favicons-text{
+.favicons-text{
 position: relative;
 left: 3px;
 }
@@ -127,7 +127,37 @@ display: grid;
 grid-template-columns: 2fr 1fr 1fr;
 }
 
-span .info-style{
+span #info-style-big4{
+text-transform: capitalize;
+font-size: larger;
+font: 1em helvetica;
+}
+
+span #info-style-read-code{
+text-transform: capitalize;
+font-size: larger;
+font: 1em helvetica;
+}
+
+span #info-style-open-src-odin2{
+text-transform: capitalize;
+font-size: larger;
+font: 1em helvetica;
+}
+
+span #info-style-open-src-dreal-way{
+text-transform: capitalize;
+font-size: larger;
+font: 1em helvetica;
+}
+
+span #info-style-adichie{
+text-transform: capitalize;
+font-size: larger;
+font: 1em helvetica;
+}
+
+span #info-style-open-src-gh{
 text-transform: capitalize;
 font-size: larger;
 font: 1em helvetica;
@@ -192,7 +222,7 @@ top: 5px;
 }
 
 /* styling for aside section titles */
-#titles{
+.aside-titles{
 font-size: larger;
 font: 1.10em helvetica;
 color: #000000;
@@ -202,12 +232,42 @@ left: 7px;
 }
 
 /* Names and views styling */
-#short-info{
+#big4{
 color: #2f4f4f;
 position: relative;
 left: 7px;
 }
 
+#cusec{
+color: #2f4f4f;
+position: relative;
+left: 7px;
+}
+
+#odin-prjt{
+color: #2f4f4f;
+position: relative;
+left: 7px;
+}
+
+#tedx{
+color: #2f4f4f;
+position: relative;
+left: 7px;
+}
+
+#ted-tlk{
+color: #2f4f4f;
+position: relative;
+left: 7px;
+}
+        
+#kent{
+color: #2f4f4f;
+position: relative;
+left: 7px;
+}
+        
 #upNext{
 font-weight: 550;
 padding: 9px;
@@ -283,4 +343,4 @@ height: 400;
 
 iframe{
 border: 0;
-    }
+}
