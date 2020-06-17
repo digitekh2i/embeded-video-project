@@ -59,11 +59,6 @@ border: 10%;
 justify-content: space-between;
 }
 
-.main-p{
-position: relative;
-bottom: 170px;
-}
-
 a{
  padding: 0.313em;
  text-decoration: none;
@@ -89,7 +84,7 @@ display: flex;
 justify-content: space-evenly;
 color: #2f4f4f;
 position: relative;
-bottom: 3px;
+top: 35px;
 right: 40px;
 }
 
@@ -109,7 +104,7 @@ left: 5px;
 .title{
 position: relative;
 color: #2f4f4f;
-top: 60px;
+top: 95px;
 }
 
 /* flex box styling for listed videos on the aside section */
@@ -174,13 +169,13 @@ justify-content:space-between;
 display: flex;
 flex-direction: column;
 position: relative;
-bottom: 194px;
+bottom: 144px;
 left: 110px;
 }
 
 #odin-logo{
 position: relative;
-bottom: 60px;
+bottom: 13px;
 right: 30px;
 }
 
@@ -294,7 +289,7 @@ font-weight: bold;
 padding: 20px 40px;
 color: #2f4f4f;
 position: relative;
-bottom: 8px;
+top: 45px;
 right: 35px;
 text-align: center;
 }
@@ -306,7 +301,7 @@ bottom: 6px;
 #bell-notifier{
 position: relative;
 right: 30px;
-bottom: 6px;
+top: 45px;
 }
 
 #user-icon{
@@ -318,7 +313,7 @@ left: 69px;
 .main-p{
 font-family: Georgia, Times, serif sans-serif;
 position: relative;
-bottom: 220px;
+bottom: 165px;
 }
 
 #magnifier-icon{
@@ -332,7 +327,7 @@ position: relative;
 top: 0;
 left: 0;
 width: 100%;
-height: 125%;
+height: 140%;
 }
 
 #main-frame{
@@ -405,4 +400,3 @@ width: 250px;
 #img-nu6{
 width: 250px;
 }
-
