@@ -197,18 +197,19 @@ top: 10px;
 #video-button{
 position: relative;
 top: 17px;
-right: 18px;
+left: 26px;
 }
 
 #app-button{
 position: relative;
 top: 13px;
-right: 8px;
+left: 43px;
 }
 
 #bell-button{
 position: relative;
 top:5px;
+left: 50px;
 }
 
 #logo{
@@ -296,7 +297,7 @@ font-weight: bold;
 padding: 20px 40px;
 color: #2f4f4f;
 position: relative;
-bottom: 44px;
+bottom: 46px;
 right: 35px;
 text-align: center;
 }
@@ -308,19 +309,19 @@ bottom: 6px;
 #bell-notifier{
 position: relative;
 right: 30px;
-bottom: 41px;
+bottom: 43px;
 }
 
 #user-icon{
 position: relative;
 top: 27px;
-left: 7px;
+left: 69px;
 }
 
 .main-p{
 font-family: Georgia, Times, serif sans-serif;
 position: relative;
-bottom: 240px;
+bottom: 270px;
 }
 
 #magnifier-icon{
@@ -350,4 +351,31 @@ border: 0;
 position: absolute;
 left: 10px;
 top: 23px;
+}
+
+#ellipse{
+position: relative;
+left: 50px;
+}
+
+#save{
+position: relative;
+left: 75px;
+}
+
+#share {
+position: relative;
+left: 108px;
+}
+
+#thumbs-down {
+position: relative;
+left: 140px;
+top: 2px;
+}
+    
+#thumbs-up {
+position: relative;
+left: 170px;
+top: 2px;
 }
