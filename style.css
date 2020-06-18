@@ -1,90 +1,414 @@
+
+
 body{
 background-color: #fffffe;
-width: 100;
-margin: auto;
+margin: 0px;
+border: 0px;
 font-family: Arial, Helvetica, sans-serif;
 }
 
-text{
-font-size: 12px;
+#header-box{
+display: flex;
+justify-content: space-evenly;
+padding: 20px 10px;
+height:55px;
+align-items: center;
+border-bottom: 20px;
 }
 
- header{
-     width: 100%;
-     padding: 5px 5px 5px;
-}
-.logo{
-    width: 80;
-    height: 24;
-}
-nav{
-    width: 100%;
+.mini{
+display: flex;
+justify-content: space-evenly;
 }
 
-.flex-header{
-    width: 100%;
-    display: flex;
-    justify-content: stretch;
-
+.icon-style{
+padding: 8px 10px;
+align-content: space-around;
 }
 
 .search{
-    width: 40.375em;
-    height: 2.000em;
-    margin: 0em 0em 0em 0.250em;
-    padding: 0.063em 0.125em;
+width: 30.375em;
+height: 2.000em;
+margin-top: 6px 0px 0px;
+padding: 0.063em 0.125em;
+text-align: center;
 }
 
 .button{
-    width: 2.188em;
-    height: 2.000em;
+width: 15px;
+height: 0.070em;
+text-align: center;
+position: relative;
+right: 5px;
+padding: 14px 16px;
+background-color: #f5f5f5;
 }
 
-main{
-    display: grid;
-    justify-content: space-around;
-    grid-template-columns: 4fr 1fr;
+
+button{
+height: 2.000em;
+text-align: center;
+}
+
+.main-container{
+width: 95%;
+display: grid;
+grid-template-columns: 3fr 2fr;
+margin: auto;
+border: 10%;
+justify-content: space-between;
 }
 
 a{
  padding: 0.313em;
+ text-decoration: none;
+ color: #2f4f4f;
 }
 
 .mediaPlayer{
-    margin: auto;
+display: grid;
 }
+
 .listedView{
-    margin: auto;
+margin: auto;
 }
 
 .post{
-    width: 24;
-    height: 24;
+width: 24;
+height: 24;
 }
 
-.grid-cue{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 4fr 1fr 1fr 1fr;
-    margin: auto;
+/* favicons row styling */
+.favicons-row{
+display: flex;
+justify-content: space-evenly;
+color: #2f4f4f;
+position: relative;
+top: 35px;
+right: 40px;
 }
 
-.baby-flex{
-    display: flex;
-    justify-content: space-around;
+.favicons-text{
+position: relative;
+left: 3px;
 }
 
-.p{
+#save-btn{
+position: relative;
+bottom: 5px;
+left: 5px;
+
+}
+
+/* Channel title styling */
+.title{
+position: relative;
+color: #2f4f4f;
+top: 95px;
+}
+
+/* flex box styling for listed videos on the aside section */
+.listed-video-style{
+display: flex;
 padding: 5px;
-margin: 1px 2px 2px;
+margin: auto;
 }
 
-.iconcue{
-    padding: 5px;
-    margin: auto;
+.privcons{
+display: grid;
+grid-template-columns: 2fr 1fr 1fr;
+}
+
+#info-style-big4{
+text-transform: capitalize;
+font-size: larger;
+font: 1em helvetica;
+margin: 8px 4px 8px 4px;
+}
+
+#info-style-read-code{
+text-transform: capitalize;
+font-size: larger;
+font: 1em helvetica;
+margin: 8px 4px 8px 4px;
+}
+
+#info-style-open-src-odin2{
+text-transform: capitalize;
+font-size: larger;
+font: 1em helvetica;
+margin: 8px 4px 8px 4px;
+}
+
+#info-style-open-src-dreal-way{
+text-transform: capitalize;
+font-size: larger;
+font: 1em helvetica;
+margin: 8px 4px 8px 4px;
+}
+
+#info-style-adichie{
+text-transform: capitalize;
+font-size: larger;
+font: 1em helvetica;
+margin: 8px 4px 8px 4px;
+}
+
+#info-style-open-src-gh{
+text-transform: capitalize;
+font-size: larger;
+font: 1em helvetica;
+margin: 8px 4px 8px 4px;
+}
+
+.views{
+color: gr#808080;
+}
+
+.videoInfo{
+display: flex;
+justify-content:space-between;
+}
+
+/* styles for the channel's profile name and views */
+.name-views{
+display: flex;
+flex-direction: column;
+position: relative;
+bottom: 144px;
+left: 110px;
+}
+
+#odin-logo{
+position: relative;
+bottom: 13px;
+right: 30px;
+}
+
+#vid-name{
+color: #000000;
+font-weight: 600;
+position: relative;
+top: 10px;
+}
+
+#video-button{
+position: relative;
+top: 17px;
+left: 26px;
+}
+
+#app-button{
+position: relative;
+top: 13px;
+left: 43px;
+}
+
+#bell-button{
+position: relative;
+top:5px;
+left: 50px;
+}
+
+#logo{
+position: relative;
+top: 1px;
+right: 100px;
+}
+
+#menu{
+position: relative;
+top: 5px;
+}
+
+/* styling for aside section titles */
+.aside-titles{
+font-size: larger;
+font: 1.10em helvetica;
+color: #000000;
+font-weight: bold;
+position: relative;
+left: 7px;
+}
+
+/* Names and views styling */
+#big4{
+color: #2f4f4f;
+position: relative;
+left: 7px;
+margin: 8px 4px 8px 4px;
+}
+
+#cusec{
+color: #2f4f4f;
+position: relative;
+left: 7px;
+margin: 8px 4px 8px 4px;
+}
+
+#odin-prjt{
+color: #2f4f4f;
+position: relative;
+left: 7px;
+margin: 8px 4px 8px 4px;
+}
+
+#tedx{
+color: #2f4f4f;
+position: relative;
+left: 7px;
+margin: 8px 4px 8px 4px;
+}
+
+#ted-tlk{
+color: #2f4f4f;
+position: relative;
+left: 7px;
+margin: 8px 4px 8px 4px;
+}
+        
+#kent{
+color: #2f4f4f;
+position: relative;
+left: 7px;
+margin: 8px 4px 8px 4px;
+}
+        
+#upNext{
+font-weight: 550;
+padding: 9px;
+}
+
+#autoP{
+padding: 9px;
+position: relative;
+left: 82px;
+}
+
+#toggle-btn{
+padding: 9px;
+position: relative;
+left: 55px;
+}
+
+#subscribe{
+border: #000000;
+background-color: #a9a9a9; 
+border-radius: 3%;
+cursor: pointer;
+font-size: 15;
+font-weight: bold;
+padding: 20px 40px;
+color: #2f4f4f;
+position: relative;
+top: 45px;
+right: 35px;
+text-align: center;
+}
+#button-text{
+position: relative;
+bottom: 6px;
+}
+
+#bell-notifier{
+position: relative;
+right: 30px;
+top: 45px;
+}
+
+#user-icon{
+position: relative;
+top: 27px;
+left: 69px;
+}
+
+.main-p{
+font-family: Georgia, Times, serif sans-serif;
+position: relative;
+bottom: 165px;
+}
+
+#magnifier-icon{
+position: relative;
+right: 37px;
+top: 2px;
+}
+
+#main-frame iframe{
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+height: 140%;
+}
+
+#main-frame{
+width: 100%;
+height: 400;
 }
 
 iframe{
-    width: 650;
-    height: 400;
+border: 0;
+}
+
+#burger-menu{
+position: absolute;
+left: 20px;
+top: 33px;
+}
+
+#ellipse{
+position: relative;
+left: 50px;
+}
+
+#save{
+position: relative;
+left: 75px;
+}
+
+#share {
+position: relative;
+left: 108px;
+}
+
+#thumbs-down {
+position: relative;
+left: 140px;
+top: 2px;
+}
+    
+#thumbs-up {
+position: relative;
+left: 170px;
+top: 2px;
+}
+
+.img-resize{
+width: 100%;
+height: 100%;
+}
+
+#img-nu1{
+width: 250px;
+}
+
+#img-nu2{
+width: 250px;
+}
+
+#img-nu3{
+width: 250px;
+}
+
+#img-nu4{
+width: 250px;
+}
+
+#img-nu5{
+width: 250px;
+}
+
+#img-nu6{
+width: 250px;
 }
