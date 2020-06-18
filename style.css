@@ -119,43 +119,49 @@ display: grid;
 grid-template-columns: 2fr 1fr 1fr;
 }
 
-span #info-style-big4{
+#info-style-big4{
 text-transform: capitalize;
 font-size: larger;
 font: 1em helvetica;
+margin: 8px 4px 8px 4px;
 }
 
-span #info-style-read-code{
+#info-style-read-code{
 text-transform: capitalize;
 font-size: larger;
 font: 1em helvetica;
+margin: 8px 4px 8px 4px;
 }
 
-span #info-style-open-src-odin2{
+#info-style-open-src-odin2{
 text-transform: capitalize;
 font-size: larger;
 font: 1em helvetica;
+margin: 8px 4px 8px 4px;
 }
 
-span #info-style-open-src-dreal-way{
+#info-style-open-src-dreal-way{
 text-transform: capitalize;
 font-size: larger;
 font: 1em helvetica;
+margin: 8px 4px 8px 4px;
 }
 
-span #info-style-adichie{
+#info-style-adichie{
 text-transform: capitalize;
 font-size: larger;
 font: 1em helvetica;
+margin: 8px 4px 8px 4px;
 }
 
-span #info-style-open-src-gh{
+#info-style-open-src-gh{
 text-transform: capitalize;
 font-size: larger;
 font: 1em helvetica;
+margin: 8px 4px 8px 4px;
 }
 
-.view{
+.views{
 color: gr#808080;
 }
 
@@ -230,36 +236,42 @@ left: 7px;
 color: #2f4f4f;
 position: relative;
 left: 7px;
+margin: 8px 4px 8px 4px;
 }
 
 #cusec{
 color: #2f4f4f;
 position: relative;
 left: 7px;
+margin: 8px 4px 8px 4px;
 }
 
 #odin-prjt{
 color: #2f4f4f;
 position: relative;
 left: 7px;
+margin: 8px 4px 8px 4px;
 }
 
 #tedx{
 color: #2f4f4f;
 position: relative;
 left: 7px;
+margin: 8px 4px 8px 4px;
 }
 
 #ted-tlk{
 color: #2f4f4f;
 position: relative;
 left: 7px;
+margin: 8px 4px 8px 4px;
 }
         
 #kent{
 color: #2f4f4f;
 position: relative;
 left: 7px;
+margin: 8px 4px 8px 4px;
 }
         
 #upNext{
