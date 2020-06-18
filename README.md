@@ -3,7 +3,7 @@
 
 > this project is an attempt to replicate the look and feel of the popular internet media player, youTube Channel.
 
-![screenshot](image/final-scrn.jpg)
+![screenshot](image/scrn-cut.jpg)
 
 
 ## Built With
